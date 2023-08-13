@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lustria&display=swap");
+
+#root {
+    margin: 0;
+}
+
+.lustria {
+    font-family: "Lustria", serif;
+}
