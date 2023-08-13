@@ -18,13 +18,13 @@ const Hero = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, [scrollY]);
     return (
-        <div className="h-screen overflow-hidden flex items-end w-full relative">
+        <div className="h-[120vh] overflow-hidden w-full relative">
             <motion.img
                 src="main-bg.png"
                 alt="bg"
                 style={{ scale: scale }}
             ></motion.img>
-            <h1 className="text-[4rem] text-center lustria relative z-[-1]">
+            <h1 className="absolute text-[4rem] z-[-1] bottom-0 mb-4 w-full text-center left-1/2 transform -translate-x-1/2 font-light lustria">
                 Welcome to the Epitome of Luxury Advertising.
             </h1>
             {/* <motion.div
